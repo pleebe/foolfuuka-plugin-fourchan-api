@@ -1,0 +1,27 @@
+{
+  "name": "foolz/foolfuuka-plugin-fourchan-api",
+  "type": "foolz-foolfuuka-plugin",
+  "version": "1.0.0",
+  "description": "Fourchan compatible api.",
+  "keywords": ["api"],
+  "homepage": "http://www.4plebs.org",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "4plebs",
+      "email": "pleebe@4plebs.org"
+    }
+  ],
+  "support": {
+    "email": "pleebe@4plebs.org",
+    "irc": "irc://irc.irchighway.net/fooldriver"
+  },
+  "require" : {
+    "foolz/plugin": "dev"
+  },
+  "extra": {
+    "name": "Fourchan compatible API",
+    "slug": "api",
+    "module": "foolfuuka"
+  }
+}
